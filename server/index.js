@@ -5,6 +5,9 @@ const pool = require('./db')
 app.use(express.json())
 app.use(cors())
 
+/**
+ * Ini rest api
+ */
 app.post('/v1/calc', async (req, res) => {
   try {
     const { x, y, z, updated_date } = req.body
