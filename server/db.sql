@@ -1,0 +1,10 @@
+CREATE DATABASE siab;
+
+CREATE TABLE calcs
+(
+  id SERIAL PRIMARY KEY,
+  x REAL NOT NULL,
+  y REAL NOT NULL,
+  z REAL NOT NULL,
+  updated_date VARCHAR (50) NOT NULL,
+);
